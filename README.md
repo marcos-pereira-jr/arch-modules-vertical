@@ -5,6 +5,6 @@
 The objective of this architecture is to highlight the components of the application, dividing them into each module.
 
 <p align="center">
-<img src=".\docs\diagram.jpg"/>
+<img src=".\docs\diagram.png"/>
 </p>
 
