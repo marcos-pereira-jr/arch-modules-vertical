@@ -8,6 +8,12 @@
     <artifactId>user</artifactId>
     <version>1.0.0</version>
 
+    <parent>
+        <groupId>com.acner</groupId>
+        <artifactId>arch-modules-vertical</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
     <properties>
         <project.build.sourcerEncoding>UTF-8</project.build.sourcerEncoding>
     </properties>

@@ -3,19 +3,26 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.acner</groupId>
-    <artifactId>item</artifactId>
-    <version>1.0.0</version>
-
     <parent>
         <groupId>com.acner</groupId>
         <artifactId>arch-modules-vertical</artifactId>
         <version>1.0.0</version>
     </parent>
 
+    <groupId>com.acner.main</groupId>
+    <artifactId>main</artifactId>
+
     <properties>
-        <project.build.sourcerEncoding>UTF-8</project.build.sourcerEncoding>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.acner</groupId>
+            <artifactId>user</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 </project>
