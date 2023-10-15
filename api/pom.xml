@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>com.acner.main</groupId>
-    <artifactId>main</artifactId>
+    <artifactId>api</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
